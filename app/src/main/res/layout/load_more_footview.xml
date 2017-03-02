@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/loadLayout"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+        <ProgressBar
+            android:id="@+id/pbLoad"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_toRightOf="@+id/pbLoad"
+            android:id="@+id/tvLoad"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="雄兔脚迷离雌兔脚扑朔"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+</LinearLayout>
